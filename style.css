@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(171, 228, 255);
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    overflow: hidden;
+}
+#title{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.input_area{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.input_area > label{
+    display: block;
+}
+.options > input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+#description{
+    text-align: center;
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    width: 40%;
+    height: 45px;
+}
+#dropdown{
+    width: 100px;
+    padding: 10px 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+.options{
+    margin-bottom: 10px;
+}
+.form_button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color :#fff ;
+    background-color: #0071f0;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 25%;
+}
+.form_button:hover{
+    background-color: #26d861;
+}
+.form_input{
+    width: 25%;
+    padding: 10px 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+}
+.num_input{
+    width: 60px;
+    padding: 10px 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+}
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 85px;
+    min-height: 100%;
+    width: 40%;
+    background-color: #fff;
+    padding-bottom: 85px;
+}

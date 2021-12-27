@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey form</title>
+</head>
+<body>
+    <div class="form">
+        <h1 id="title">Survey form</h1>
+        <p id="description">Just a short survey that wont take too much time</p>
+        <form id="survey-form">
+            <div class="input_area">
+                <label for="name">
+                    Enter your name
+                </label>
+                <input class="form_input" name="name" type="text" id="name" placeholder="Vova Krutyholova" required />
+            </div>
+            <div class="input_area">
+                <label for="email">
+                    Enter your email
+                </label>
+                <input class="form_input" name="email" type="email" id="email" placeholder="example@gmail.com" required />
+            </div>
+            <div class="input_area">
+                <label for="number">
+                    Enter your age
+                </label>
+                <input class="num_input" name="number" type="number" min="0" max="99" id="number" placeholder="17" />
+            </div>
+            <div class="input_area">
+                <label for="dropdown" id="dropdown-label">
+                    Choose what smartphone you prefer
+                </label>
+                <select name="dropdown" id="dropdown">
+                    <option class="option" value="Iphone">Iphone</option>
+                    <option class="option" value="Samsung">Samsung</option>
+                    <option class="option" value="Xiaomi">Xiaomi</option>
+                </select>
+            </div>
+            <div class="options">
+                <label for="radio-group" id="radio-label">
+                    Which car would you like to have?
+                </label>            
+                <div>
+                    <input type="radio" id="bmw" name="radio-group" />
+                    <label for="bmw">BMW</label>
+                </div>           
+                <div>
+                    <input type="radio" id="mercedes" name="radio-group" />
+                    <label for="mercedes">Mercedes</label>
+                </div>            
+                <div>
+                    <input type="radio" id="audi" name="radio-group" />
+                    <label for="audi">Audi</label>
+                </div>
+            </div>
+            <div class="options">
+                <label for="checkbox-group" id="whatdoyouhave">What do you have from list below?</label>
+                <div>
+                    <input type="checkbox" id="home" name="checkbox-group" value="home" />
+                    <label for="home">Home</label>
+                </div>       
+                <div>
+                    <input type="checkbox" id="friends" name="checkbox-group" value="friends" />
+                    <label for="friends">Friends</label>
+                </div>            
+                <div>
+                    <input type="checkbox" id="food" name="checkbox-group" value="food" />
+                    <label for="food">Food</label>
+                </div>
+            </div>
+            <div class="comments">
+                <label id="comment-label" for="comment">
+                    Thanks for completing this survey! Any comments?
+                </label>
+                <textarea name="comment" id="comment" placeholder="Enter your comments here"></textarea>
+            </div>
+            <div id="button-container"> 
+                <button class="form_button" id="submit" type="submit" value="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
